@@ -1,15 +1,13 @@
-HOPE FOR HUMANITY — VISUAL WEBSITE UPGRADE
+# Hope for Humanity Website
 
-This version includes:
-- 12-image interactive gallery
-- Tap/click photos to open a large lightbox
-- Animated GIF-style motion panels created with CSS so they work without extra files
-- A dedicated animated/motion section
-- A larger "Hope Wall" photo display
-- Existing constitutional/community programme content
-- Existing email addresses and mobile numbers
-- GitHub Pages-ready static HTML/CSS/JS
+Open `index.html` in a browser to view the website.
 
-For real GIF files:
-Create a folder named assets/gifs in the repository and upload your .gif files.
-Then they can be inserted into the motion section. GIF is supported as an image format by GitHub.
+Included:
+- Responsive mobile and desktop layout
+- Home, About Us, Programs, Impact, Get Involved, News and Contact sections
+- Donate/Sponsor call-to-action
+- Clickable phone and email contacts
+- Contact form that opens the visitor's email application
+- Green Hope for Humanity visual identity
+
+The photo backgrounds use online image URLs so the website can display photos immediately when internet access is available. Replace those URLs with your own photos later if preferred.

@@ -1,4 +1,17 @@
-const btn=document.querySelector(".hamb"),nav=document.querySelector("nav");btn.addEventListener("click",()=>nav.classList.toggle("open"));document.querySelectorAll("nav a").forEach(a=>a.addEventListener("click",()=>nav.classList.remove("open")));function videoNotice(){alert("Add your Hope for Humanity YouTube or Facebook video link to the Videos section.");}
-document.querySelectorAll(".gallery-item").forEach(item=>item.addEventListener("click",()=>{const lb=document.getElementById("lightbox");document.getElementById("lightboxImg").src=item.dataset.full;document.getElementById("lightboxImg").alt=item.querySelector("img").alt;document.getElementById("lightboxCaption").textContent=item.querySelector("span").textContent;lb.classList.add("open");lb.setAttribute("aria-hidden","false")}));
-const closeLb=()=>{const lb=document.getElementById("lightbox");lb.classList.remove("open");lb.setAttribute("aria-hidden","true")};
-document.querySelector(".close-lightbox")?.addEventListener("click",closeLb);document.getElementById("lightbox")?.addEventListener("click",e=>{if(e.target.id==="lightbox")closeLb()});
+const menu = document.querySelector('.menu-toggle');
+const nav = document.querySelector('#nav');
+menu.addEventListener('click', () => nav.classList.toggle('open'));
+document.querySelectorAll('nav a').forEach(a => a.addEventListener('click', () => nav.classList.remove('open')));
+
+const form = document.querySelector('#contactForm');
+form.addEventListener('submit', e => {
+  e.preventDefault();
+  const name = document.querySelector('#name').value.trim();
+  const email = document.querySelector('#email').value.trim();
+  const reason = document.querySelector('#reason').value;
+  const message = document.querySelector('#message').value.trim();
+  const subject = encodeURIComponent(`Hope for Humanity enquiry: ${reason}`);
+  const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\nReason: ${reason}\n\n${message}`);
+  window.location.href = `mailto:hopeforhumanity@mail.com?subject=${subject}&body=${body}`;
+  document.querySelector('#formMessage').textContent = 'Opening your email app to send the enquiry…';
+});
