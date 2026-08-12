@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700">
+<defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f2ead8"/><stop offset="1" stop-color="#173f34"/></linearGradient></defs>
+<rect width="1000" height="700" fill="url(#g)"/>
+<circle cx="820" cy="90" r="125" fill="#e5bf69" opacity=".45"/><circle cx="900" cy="170" r="80" fill="#fff" opacity=".12"/>
+<circle cx="100" cy="180" r="48" fill="#f2ead8" opacity=".9"/><circle cx="230" cy="235" r="60" fill="#d9e6df" opacity=".9"/><circle cx="360" cy="180" r="72" fill="#173f34" opacity=".9"/><circle cx="490" cy="235" r="48" fill="#235b49" opacity=".9"/><circle cx="620" cy="180" r="60" fill="#c18a35" opacity=".9"/><path d="M0 510 Q230 420 480 520 T1000 480 V700 H0Z" fill="#0c2d25" opacity=".8"/>
+<circle cx="180" cy="420" r="27" fill="#f6d1ae"/><path d="M145 520 Q180 450 215 520 L215+j*130 650 L145+j*130 650Z" fill="#d9e6df"/><circle cx="310" cy="408" r="27" fill="#f6d1ae"/><path d="M275 520 Q310 450 345 520 L215+j*130 650 L145+j*130 650Z" fill="#173f34"/><circle cx="440" cy="420" r="27" fill="#f6d1ae"/><path d="M405 520 Q440 450 475 520 L215+j*130 650 L145+j*130 650Z" fill="#235b49"/><circle cx="570" cy="408" r="27" fill="#f6d1ae"/><path d="M535 520 Q570 450 605 520 L215+j*130 650 L145+j*130 650Z" fill="#c18a35"/>
+<rect x="55" y="55" width="890" height="590" rx="28" fill="none" stroke="#fff" stroke-opacity=".2" stroke-width="2"/>
+<text x="70" y="105" fill="#e9c875" font-family="Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="5">COMMUNITY LIFE</text>
+<text x="70" y="145" fill="#fff" font-family="Georgia,serif" font-size="30">Stronger communities start together</text>
+<text x="70" y="615" fill="#fff" opacity=".75" font-family="Arial,sans-serif" font-size="18">HOPE FOR HUMANITY</text>
+</svg>
